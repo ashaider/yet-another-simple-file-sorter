@@ -26,8 +26,10 @@ yasfs -s /path/to/source -d /path/to/destination
 ### Optional Arguments
 - `--source` or `-s`: The path to the directory where the files will be read from
 - `--destination` or `-d`: The path to the directory where the files will be moved to and sorted at
-- `--subfolder_only_sort` or `-sfos`: When provided, does not sort files if they have no pre-made destination folder
-For all of these optional arguments, if not provided, will pull their value from `config.ini`.
+- `--subfolder_only_sort` or `-sf`: When provided, does not sort files if they have no pre-made destination folder
+All of the above optional arguments, if not provided, will pull their value from `config.ini`.
+- `--use_current_dir` or `-u`: When provided, overrides `source` and `destination` with the current directory in the commandline. (Using `-s` and `-d` alongside this will render their values useless)
+- `--config` or `-c`: Opens the config file and exits
 
 ## Configuration
 By default, `yasfs` looks for a configuration file named `config.ini` located in the parent directory of the script. The settings in this file can be overrriden through the use of optional arguments in the command line. However,the config file also specifies custom sorting rules, allowing you to map specific file types to custom subfolders, which cannot be done from the command line.
@@ -74,7 +76,7 @@ yasfs -s /path/to/source
 ```
 When we sort files, subfolders for their file extension type are automatically created, but what if we don't want to sort files unless their subfolders already exist?
 ```bash
-yasfs -sfos
+yasfs -sf
 ```
 
 ## Contributing
