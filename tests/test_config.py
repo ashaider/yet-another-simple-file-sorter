@@ -2,7 +2,7 @@ import unittest
 import os
 import shutil
 import configparser
-from yet_another_simple_file_sorter_ashaider.config import create_default_config, read_config_file
+from yasfs.config import create_default_config, read_config_file
 
 class TestConfig(unittest.TestCase):
 
