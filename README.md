@@ -1,6 +1,6 @@
 <div align="center">
-<pre>
 ![Banner](https://raw.githubusercontent.com/ashaider/yet-another-simple-file-sorter/blob/main/yasfs-banner.png)
+<pre>
 Python cli tool that organizes and sorts files by extension types
 </pre>
 

@@ -1,2 +1,0 @@
-[console_scripts]
-yasfs = yasfs.__main__:main
