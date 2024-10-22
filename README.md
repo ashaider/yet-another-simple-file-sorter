@@ -4,8 +4,8 @@
 Python cli tool that organizes and sorts files by extension types
 </pre>
 
-![PyPI](https://img.shields.io/badge/v0.1.0-orange?label=pypi&link=https%3A%2F%2Fpypi.org%2Fproject%2Fyasfs%2F)
-![Static Badge](https://img.shields.io/badge/MIT-yellow?label=License&link=https%3A%2F%2Fopensource.org%2Flicenses%2FMIT)
+[![PyPI](https://img.shields.io/badge/v0.1.0-orange?label=pypi)](https://pypi.org/project/yasfs/)
+[![Static Badge](https://img.shields.io/badge/MIT-yellow?label=License)](https://opensource.org/licenses/MIT)
 
 </div>
 
