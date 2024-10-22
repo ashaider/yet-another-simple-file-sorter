@@ -1,8 +1,13 @@
+<div align="center">
+<pre>
+![Banner](https://raw.githubusercontent.com/ashaider/yet-another-simple-file-sorter/blob/main/yasfs-banner.png)
+Python cli tool that organizes and sorts files by extension types
+</pre>
 
-# yasfs - Yet Another Simple File Sorter
+![PyPI](https://img.shields.io/badge/v0.1.0-orange?label=pypi&link=https%3A%2F%2Fpypi.org%2Fproject%2Fyasfs%2F)
+![Static Badge](https://img.shields.io/badge/MIT-yellow?label=License&link=https%3A%2F%2Fopensource.org%2Flicenses%2FMIT)
 
-**Version:** 1.0  
-**Description:** yasfs is a Python-based command-line tool that organizes and sorts files by their extension types.
+</div>
 
 ## Installation
 You can install this repo directly from PyPI using `pip`:
